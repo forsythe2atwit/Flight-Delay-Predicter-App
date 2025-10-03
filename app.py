@@ -1,6 +1,8 @@
 import os
 import logging
 from flask import Flask, render_template, request
+import requests
+
 from fr24sdk.client import Client
 from fr24sdk.models.flight import FlightSummaryLight
 
@@ -13,7 +15,6 @@ client = Client(api_token=FR24_API_TOKEN)
 result = client.live.flight_positions.get_light(bounds="50.682,46.218, 14.422,22.243") # N, S, W, E
 print(result)
 
-import requests
 
 from math import radians, cos, sin, asin, sqrt, atan2
 from typing import Iterable, Dict, Any
