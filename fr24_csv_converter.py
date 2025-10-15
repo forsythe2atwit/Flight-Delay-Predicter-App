@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-CSV_FILE = "Nevada to Dallas examination.csv"
+CSV_FILE = "flights_csv/MIA_BOS.csv"
 OUTPUT_CSV = "openmeteo_flight_weather_history.csv"
 
 PARAMS = [
