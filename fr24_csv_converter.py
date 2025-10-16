@@ -2,8 +2,8 @@ import requests
 import pandas as pd
 import numpy as np
 from datetime import datetime
-
-CSV_FILE = "flights_csv/MIA_BOS.csv"
+# change this csv file when creating new weather history examinations
+CSV_FILE = "flights_csv/LA_DAL.csv"
 OUTPUT_CSV = "openmeteo_flight_weather_history.csv"
 
 PARAMS = [
