@@ -1,0 +1,2 @@
+n_points,dep_points,enroute_points,arr_points,used_schedule_windows,dep_score_mean,enroute_score_mean,arr_score_mean,WDI_0_100,heuristic_delay_min,weights_precip_vis_wind_fog_snow
+50,10,30,10,False,4.33,17.76,30.44,17.46,3.5,"(0.35, 0.25, 0.2, 0.15, 0.05)"
